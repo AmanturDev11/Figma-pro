@@ -1,0 +1,53 @@
+.Component2 {
+	margin-top: 90px;
+	width: 100%;
+	background: rgb(98, 208, 223);
+	.content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.cards {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			// display: flex;
+			// flex-direction: column;
+			gap: 270px;
+			img {
+				height: 100%;
+				// width: 100%;
+			}
+			.card {
+				.classfizs {
+					color: rgb(255, 255, 255);
+					font-family: Larsseit;
+					font-size: 36px;
+					font-weight: 700;
+					line-height: 47px;
+					letter-spacing: -0.6%;
+					text-align: left;
+				}
+				.cardText {
+					// width: 469px;
+					// height: 161px;
+					.textClass {
+            margin-top: 75px;
+						// width: 469px;
+						// height: 161px;
+						color: rgb(34, 53, 111);
+						// font-family: Larsseit;
+						font-size: 20px; //
+						// font-weight: 400;
+						line-height: 35px; //
+						// letter-spacing: 0%;
+						// text-align: left;
+						color: rgb(255, 255, 255);
+						span {
+							font-size: 24px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

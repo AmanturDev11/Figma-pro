@@ -1,0 +1,44 @@
+.Component3 {
+	padding: 70px;
+	.classP {
+		// margin-top: 50px;
+		color: rgb(34, 53, 111);
+	}
+	.content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.cards {
+			// justify-content: center;
+			.card {
+				// gap: 200px;
+			}
+			.cardText {
+				width: 592px;
+				height: 210px;
+				color: rgb(34, 53, 111);
+				font-family: Larsseit;
+				font-size: 24px;
+				font-weight: 500;
+				line-height: 31px;
+				letter-spacing: 0.5%;
+				text-align: left;
+			}
+			.card3 {
+				margin-top: 60px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: rgba(34, 53, 111, 0.5);
+				// font-family: Larsseit;
+				// font-size: 16px;
+				// font-weight: 400;
+				// line-height: 20px;
+				// letter-spacing: 6%;
+				// text-align: center;
+			}
+		}
+	}
+}
+
+
