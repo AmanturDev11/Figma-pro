@@ -6,12 +6,13 @@ import Component6 from "../component6/Component6";
 import Component7 from "../component7/Component7";
 import Component8 from "../component8/Component8";
 import Component9 from "../component9/Component9";
+import Footer from "../footer/Footer";
 
 import Header from "../header/Header";
 
 const NewForum = () => {
 	return (
-		<>
+		<form>
 			<Header />
 			<Component1 />
 			<Component2 />
@@ -22,7 +23,8 @@ const NewForum = () => {
 			<Component7 />
 			<Component8 />
 			<Component9 />
-		</>
+			<Footer />
+		</form>
 	);
 };
 

@@ -1,8 +1,5 @@
 import { Button } from "../UI/button/Button";
 import scss from "./Header.module.scss";
-// import img from "../../assets/images/Mask Group.svg";
-
-
 
 const Header = () => {
 	return (
@@ -21,7 +18,6 @@ const Header = () => {
 						</nav>
 					</div>
 					<Button className={scss.buttonClass} cekault="CONTACT US" />
-					{/* <img src={img} alt="" /> */}
 				</div>
 			</div>
 		</header>

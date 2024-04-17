@@ -1,6 +1,5 @@
 import scss from "./Component1.module.scss";
 import img from "../../assets/images/Mask Group.svg";
-// import imgFon from "../../assets/images/Rectangle 3.1.svg";
 
 const Component1 = () => {
 	return (

@@ -7,8 +7,6 @@ const Component3 = () => {
 				<p className={scss.classP}>ABOUT US</p>
 				<div className={scss.content}>
 					<div className={scss.cards}>
-						{/* <div className={scss.card}> */}
-						{/* </div> */}
 						<div className={scss.cardText}>
 							<p>
 								We want to help you thrive! Whether you are just looking for
@@ -19,9 +17,9 @@ const Component3 = () => {
 								yourself more.
 							</p>
 						</div>
-            <div className={scss.card3}>
-						<p>WE CAN HELP YOU WITH</p>
-            </div>
+						<div className={scss.card3}>
+							<p>WE CAN HELP YOU WITH</p>
+						</div>
 					</div>
 				</div>
 			</div>

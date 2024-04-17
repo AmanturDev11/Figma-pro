@@ -2,10 +2,54 @@
 	width: 100%;
 	background: rgb(34, 53, 111);
 	.content {
-    display: flex;
-    justify-content: center;
-    .cards {
-      display: flex;
-    }
+		display: flex;
+		justify-content: center;
+
+		.cards {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.contentH2 {
+				h2 {
+					color: rgb(255, 255, 255);
+					font-family: Larsseit;
+					font-size: 64px;
+					font-weight: 700;
+					line-height: 84px;
+					letter-spacing: -1%;
+					text-align: left;
+					margin-top: 20.6875rem;
+				}
+				.contentText {
+					width: 36.1875rem;
+					height: 15.8125rem;
+					color: rgb(255, 255, 255);
+					font-family: Larsseit;
+					font-size: 30px;
+					font-weight: 400;
+					line-height: 46px;
+					letter-spacing: -0.5%;
+					text-align: left;
+					margin-top: 75px;
+				}
+				.card {
+					margin-bottom: 45px;
+					color: rgb(98, 208, 223);
+					font-family: Larsseit;
+					font-size: 16px;
+					font-weight: 700;
+					line-height: 21px;
+					letter-spacing: 10%;
+					text-align: left;
+				}
+				.box {
+					display: flex;
+					align-items: center;
+					.classP {
+						color: rgb(255, 255, 255);
+					}
+				}
+			}
+		}
 	}
 }

@@ -1,4 +1,4 @@
-export const Button = ({cekault}) => {
+export const Button = ({ cekault }) => {
 	return (
 		<div>
 			<button
@@ -9,10 +9,8 @@ export const Button = ({cekault}) => {
 					fontSize: "14px",
 					color: "#FFFFFF",
 					backgroundColor: " #62D0DF",
-					// position:'absolute',
-					// zIndex:'99999999',
 				}}>
-          {cekault}
+				{cekault}
 			</button>
 		</div>
 	);

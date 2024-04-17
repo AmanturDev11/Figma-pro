@@ -1,11 +1,9 @@
 .Header {
 	background: rgb(244, 249, 226);
 	padding: 20px;
-	// z-index: 999999;
 	.content {
 		display: flex;
 		justify-content: space-between;
-		// align-items: center;
 		.left {
 			display: flex;
 			justify-content: center;
@@ -30,16 +28,5 @@
 		.buttonClass {
 			z-index: 9999999;
 		}
-		// img {
-		// 	/* Rectangle 3.1 */
-		// 	position: absolute;
-		// 	width: 807.71px;
-		// 	height: 544.93px;
-		// 	left: 1139.93px;
-		// 	right: -507.63px;
-		// 	top: -170.66px;
-		// 	bottom: 5594.73px;
-		// 	transform: rotate(120deg);
-		// }
 	}
 }

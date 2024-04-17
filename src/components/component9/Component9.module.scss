@@ -1,0 +1,37 @@
+.Component9 {
+	.content {
+		display: flex;
+		.cards {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img {
+				margin-left: -20px;
+			}
+			.cardContent {
+				display: flex;
+				gap: 50px;
+				padding: 2.25rem;
+				.card1 {
+					.contentBox {
+						.contenth3 {
+							color: rgb(34, 53, 111);
+							font-size: 24px;
+							font-weight: 800;
+						}
+					}
+					.contentText {
+						margin-top: 40px;
+						width: 217px;
+						height: 115px;
+						color: rgba(34, 53, 111, 0.5);
+						font-size: 19px;
+						.cardTop {
+							padding-top: 40px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

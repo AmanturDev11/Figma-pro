@@ -41,9 +41,9 @@ const Component6 = () => {
 						{data.map((item, index) => (
 							<div className={scss.cards} key={index}>
 								<h2>{item.name}</h2>
-                <div className={scss.card}>
-								<p>{item.title}</p>
-                </div>
+								<div className={scss.card}>
+									<p>{item.title}</p>
+								</div>
 							</div>
 						))}
 					</div>
